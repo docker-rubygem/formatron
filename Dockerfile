@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.1.14
+ENV VERSION=0.1.15
 
 RUN gem install formatron --version ${VERSION} --no-format-exec
 
